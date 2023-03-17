@@ -1,0 +1,95 @@
+body a:hover{
+  text-decoration: none;
+}
+
+body input[type="checkbox"]{
+  margin-right: 8px;
+}
+
+body label.form-check-label{
+  font-weight: normal;
+}
+
+/*
+## Margin Top
+***********************/
+.mt0{
+  margin-top: 0px!important;
+}
+
+.mt1{
+  margin-top: 15px!important;
+}
+
+.mt2{
+  margin-top: 25px!important;
+}
+/*
+## Margin Bottom
+***********************/
+.mb0{
+  margin-bottom: 0px!important;
+}
+
+.mb1{
+  margin-bottom: 15px!important;
+}
+
+.mb2{
+  margin-bottom: 25px!important;
+}
+
+.mr{
+  margin-right: 10px;
+}
+body .metismenu{
+  background-color: #2f4050;
+}
+
+body .metismenu-link.active{
+  border-left: 4px solid#19aa8d;
+  background:#293846;
+}
+
+body .metismenu-link{
+  color: #a7b1c2;
+  font-weight: 600; 
+  outline: none;
+}
+
+body .metismenu-link.has-active-child{
+  color: #ffffff;
+}
+
+body .metismenu-container .metismenu-container{
+  padding: 0;
+  box-shadow: none;
+}
+
+body .metismenu::after{
+  box-shadow: none;
+}
+
+body .metismenu-container.visible a,
+body .metismenu-link.has-active-child{
+  border-left: 4px solid#19aa8d;
+}
+
+.ErrorMassge{
+  color: red; 
+  margin-bottom: 10px;
+}
+ 
+@media (prefers-reduced-motion: no-preference) {
+  
+}
+  
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
